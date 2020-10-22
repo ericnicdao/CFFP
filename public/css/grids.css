@@ -1,0 +1,63 @@
+.container-grid {
+    margin: 20px auto;
+    width: 90%;
+    overflow: hidden;
+    padding: 20px 0px;
+    /*background-color: #000f0f;*/
+}
+
+.container-grid ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-grid ul li {
+    list-style: none;
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin: 20px 20px 50px 20px;
+    box-sizing: border-box;
+    /*border: 2px solid;*/
+    position: relative;
+    /*background-color: rgba(153,102,51,0.5);*/
+    /*background: red;*/
+}
+
+.container-grid ul li .title {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    /*background: white;*/
+    /*text-align: center;*/
+}
+
+.container-grid ul li .image {
+    width: 100%;
+    height: 200px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.container-grid ul li .body {
+    width: 100%;
+    height: 50px;
+}
+
+.container-grid ul li .controls {
+    /*width: 100%;
+    height: 50px;
+    line-height: 50px;*/
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .container-grid ul li {
+        width: 80%;
+        margin: 20px;
+    }
+}
